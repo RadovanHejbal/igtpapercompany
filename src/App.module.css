@@ -74,6 +74,10 @@
         gap: 12px;
     }
 
+    .box {
+        padding: 20px;
+    }
+
     .box:nth-child(1) {
         width: calc(55% - 6px);
     }
@@ -102,6 +106,10 @@
 @media only screen and (max-width: 460px) {
     .boxTitle {
         font-size: 16px;
+    }
+
+    .box {
+        padding: 16px;
     }
 
     .data {
