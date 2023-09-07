@@ -1,0 +1,111 @@
+.companyTitle {
+    margin: 0 0 40px 32px;
+}
+
+.boxContainer {
+    display: flex;
+    gap: 24px;
+    flex-wrap: wrap;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #081145;
+    border-radius: 24px;
+    padding: 32px;
+    width: calc(37.5% - 16px);
+}
+
+.box:nth-child(2) {
+    width: calc(25% - 16px);
+}
+
+.boxTitle {
+    font-weight: 400;
+    text-align: center;
+}
+
+.data {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-size: 56px;
+    font-weight: bold;
+    margin: 56px 0;
+}
+
+.boxDesc {
+    font-size: 16px;
+    font-weight: 400;
+    color: grey;
+}
+
+@media only screen and (max-width: 1200px) {
+    .box {
+        width: 60%;
+    }
+
+    .box:nth-child(2) {
+        width: 30%;
+    }
+}
+
+@media only screen and (max-width: 850px) {
+    .box:nth-child(1) {
+        width: calc(60% - 12px);
+    }
+
+    .box:nth-child(2) {
+        width: calc(40% - 12px);
+        min-width: none;
+    }
+
+    .box:nth-child(3) {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 620px) {
+    .boxContainer {
+        gap: 12px;
+    }
+
+    .box:nth-child(1) {
+        width: calc(55% - 6px);
+    }
+
+    .box:nth-child(2) {
+        width: calc(45% - 6px);
+    }
+
+    .companyTitle {
+        font-size: 40px;
+        display: flex;
+        justify-content: center;
+        margin: 0 0 40px 0;
+    }
+
+    .boxTitle {
+        font-size: 24px;
+    }
+
+    .data {
+        font-size: 32px;
+        margin: 32px 0;
+    }
+}
+
+@media only screen and (max-width: 460px) {
+    .boxTitle {
+        font-size: 16px;
+    }
+
+    .data {
+        font-size: 24px;
+        margin: 24px 0;
+    }
+}
