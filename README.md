@@ -43,7 +43,7 @@ Follow these instructions to get a copy of the project up and running on your lo
 - **`public/`**: Contains public assets, such as temporary data.json file
 - **`index.html`**: main html file
 - **`package.json`**: Configuration file for Node.js dependencies.
-- **`README.md`**: This file, providing project documentation.
+- **`README.md`**: Providing project documentation.
 - **`.gitignore`**: Specifies files and directories to be ignored by Git.
 
 ### Data
