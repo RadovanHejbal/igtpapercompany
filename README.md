@@ -23,7 +23,7 @@ Follow these instructions to get a copy of the project up and running on your lo
 
 1. Clone the repository: git clone https://github.com/RadovanHejbal/igtpapercompany.git
 2. Open cloned file: cd igtpapercompany
-3. Instal deppendencies: npm install
+3. Instal dependencies: npm install
 4. Run application: npm run dev
 5. Open the web browser and visit: localhost:5173
 
